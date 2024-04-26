@@ -1,0 +1,9 @@
+E:\git\sx1276SKA\SemtechLib.Devices.Common\bin\Debug\SemtechLib.Devices.Common.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common\bin\Debug\SemtechLib.Devices.Common.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common\bin\Debug\SemtechLib.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common\bin\Debug\SemtechLib.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common\obj\Debug\SemtechLib.Devices.Common.csproj.AssemblyReference.cache
+E:\git\sx1276SKA\SemtechLib.Devices.Common\obj\Debug\SemtechLib.Devices.Common.csproj.CoreCompileInputs.cache
+E:\git\sx1276SKA\SemtechLib.Devices.Common\obj\Debug\SemtechLib.Devices.Common.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common\obj\Debug\SemtechLib.Devices.Common.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common\obj\Debug\SemtechL.D37C8988.Up2Date

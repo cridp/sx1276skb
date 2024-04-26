@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{21A0C660-1482-4F93-BBBE-2722F3AAB1E5}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>default</LangVersion>
+    <AssemblyName>SemtechLib.Devices.SX1276</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <ProjectReference Include="..\SemtechLib.Devices.Common\SemtechLib.Devices.Common.csproj">
+      <Project>{0EAE22E4-D344-480C-9B2C-1C0847808D7A}</Project>
+      <Name>SemtechLib.Devices.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib\SemtechLib.csproj">
+      <Project>{B1CA1D01-CA93-4658-9E2A-22CF797849E5}</Project>
+      <Name>SemtechLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.Common.Hid\SemtechLib.Devices.Common.Hid.csproj">
+      <Project>{1A33AC13-4E72-43C3-9056-CB44B55A969C}</Project>
+      <Name>SemtechLib.Devices.Common.Hid</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\AddressFilteringEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\AutoRestartRxEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\BandEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ClockOutEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\DataModeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\DcFreeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\DioMappingEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\EnterConditionEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ExitConditionEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FeiRangeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FifoFillConditionEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromIdle.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromPacketReceived.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromReceive.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromRxTimeout.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromStart.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\FromTransmit.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\IdleMode.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\IntermediateModeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\LimitCheckStatusEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ListenCriteriaEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ListenEndEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ListenResolEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\LnaGainEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\LowBatTrimEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\LowPowerSelection.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\ModulationTypeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\OokAverageThreshFiltEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\OokPeakThreshDecEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\OokPeakThreshStepEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\OokThreshTypeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\OperatingModeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\PacketFormatEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\PaRampEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\PaSelectEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\PnSequence.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\PreamblePolarityEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\RfPaSwitchSelEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\RxTriggerEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\TempThresholdEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Enumerations\TimerResolution.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AddressFilteringEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AddressFilteringEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AgcStepEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AgcStepEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AutoRestartRxEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\AutoRestartRxEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\BandEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\BandEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ClockOutEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ClockOutEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DataModeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DataModeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DcFreeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DcFreeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DioMappingEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\DioMappingEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\EnterConditionEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\EnterConditionEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ExitConditionEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ExitConditionEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FeiRangeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FeiRangeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FifoFillConditionEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FifoFillConditionEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromIdleEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromIdleEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromPacketReceivedEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromPacketReceivedEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromReceiveEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromReceiveEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromRxTimeoutEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromRxTimeoutEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromStartEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromStartEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromTransmitEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\FromTransmitEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\IdleModeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\IdleModeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\IntermediateModeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\IntermediateModeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LimitCheckStatusEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LimitCheckStatusEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenCriteriaEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenCriteriaEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenEndEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenEndEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenResolEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ListenResolEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LnaGainEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LnaGainEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LowBatTrimEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LowBatTrimEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LowPowerSelectionEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\LowPowerSelectionEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ModulationTypeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\ModulationTypeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokAverageThreshFiltEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokAverageThreshFiltEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokPeakThreshDecEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokPeakThreshDecEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokThreshTypeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\OokThreshTypeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PacketFormatEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PacketFormatEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PaModeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PaModeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PaRampEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PaRampEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PnSequenceEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PnSequenceEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PreamblePolarityEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\PreamblePolarityEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\RfPaSwitchSelEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\RfPaSwitchSelEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\RxTriggerEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\RxTriggerEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\TempThresholdEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\TempThresholdEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\TimerResolutionEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Events\TimerResolutionEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\DataLog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\ILog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\Latency.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\MaskValidationType.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\Packet.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\PacketLog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.General\PseudoNoiseGenerator.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276.Properties\Resources.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276\SX1276.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SemtechLib.Devices.SX1276.Properties.Resources.resx" LogicalName="SemtechLib.Devices.SX1276.Properties.Resources.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

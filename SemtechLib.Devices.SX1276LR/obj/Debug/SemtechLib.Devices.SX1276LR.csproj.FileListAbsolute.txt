@@ -1,0 +1,15 @@
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.SX1276LR.dll
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.SX1276LR.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.Common.dll
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.Common.Hid.dll
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.dll
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.Common.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.Devices.Common.Hid.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\bin\Debug\SemtechLib.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.csproj.AssemblyReference.cache
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.Properties.Resources.resources
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.csproj.GenerateResource.cache
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.csproj.CoreCompileInputs.cache
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.dll
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechLib.Devices.SX1276LR.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.SX1276LR\obj\Debug\SemtechL.AE5624BC.Up2Date

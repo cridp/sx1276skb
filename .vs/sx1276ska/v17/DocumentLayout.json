@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git\\sx1276SKA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04BEC4FF-ECC7-48AE-AE58-DDDC80F247EB}|SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR.csproj|E:\\git\\sx1276SKA\\semtechlib.devices.sx1276lr\\semtechlib.devices.sx1276lr\\sx1276lr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04BEC4FF-ECC7-48AE-AE58-DDDC80F247EB}|SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR.csproj|solutionrelative:semtechlib.devices.sx1276lr\\semtechlib.devices.sx1276lr\\sx1276lr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A33AC13-4E72-43C3-9056-CB44B55A969C}|SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid.csproj|E:\\git\\sx1276SKA\\semtechlib.devices.common.hid\\semtechlib.devices.common.hid\\hiddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A33AC13-4E72-43C3-9056-CB44B55A969C}|SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid.csproj|solutionrelative:semtechlib.devices.common.hid\\semtechlib.devices.common.hid\\hiddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAE22E4-D344-480C-9B2C-1C0847808D7A}|SemtechLib.Devices.Common\\SemtechLib.Devices.Common.csproj|E:\\git\\sx1276SKA\\semtechlib.devices.common\\semtechlib.devices.common\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAE22E4-D344-480C-9B2C-1C0847808D7A}|SemtechLib.Devices.Common\\SemtechLib.Devices.Common.csproj|solutionrelative:semtechlib.devices.common\\semtechlib.devices.common\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A0C660-1482-4F93-BBBE-2722F3AAB1E5}|SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276.csproj|e:\\git\\sx1276ska\\semtechlib.devices.sx1276\\semtechlib.devices.sx1276\\sx1276.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A0C660-1482-4F93-BBBE-2722F3AAB1E5}|SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276.csproj|solutionrelative:semtechlib.devices.sx1276\\semtechlib.devices.sx1276\\sx1276.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAE22E4-D344-480C-9B2C-1C0847808D7A}|SemtechLib.Devices.Common\\SemtechLib.Devices.Common.csproj|E:\\git\\sx1276SKA\\semtechlib.devices.common\\semtechlib.devices.common\\usbdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAE22E4-D344-480C-9B2C-1C0847808D7A}|SemtechLib.Devices.Common\\SemtechLib.Devices.Common.csproj|solutionrelative:semtechlib.devices.common\\semtechlib.devices.common\\usbdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NativeMethods.cs",
+              "DocumentMoniker": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\NativeMethods.cs",
+              "RelativeDocumentMoniker": "SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\NativeMethods.cs",
+              "ToolTip": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\NativeMethods.cs",
+              "RelativeToolTip": "SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\NativeMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T17:32:20.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SX1276.cs",
+              "DocumentMoniker": "E:\\git\\sx1276SKA\\SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276\\SX1276.cs",
+              "RelativeDocumentMoniker": "SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276\\SX1276.cs",
+              "ToolTip": "E:\\git\\sx1276SKA\\SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276\\SX1276.cs",
+              "RelativeToolTip": "SemtechLib.Devices.SX1276\\SemtechLib.Devices.SX1276\\SX1276.cs",
+              "ViewState": "AQIAAHoZAAAAAAAAAAArwJIZAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:37:20.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsbDetector.cs",
+              "DocumentMoniker": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\UsbDetector.cs",
+              "RelativeDocumentMoniker": "SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\UsbDetector.cs",
+              "ToolTip": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\UsbDetector.cs",
+              "RelativeToolTip": "SemtechLib.Devices.Common\\SemtechLib.Devices.Common\\UsbDetector.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswD8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:54:09.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HidDevice.cs",
+              "DocumentMoniker": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid\\HidDevice.cs",
+              "RelativeDocumentMoniker": "SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid\\HidDevice.cs",
+              "ToolTip": "E:\\git\\sx1276SKA\\SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid\\HidDevice.cs",
+              "RelativeToolTip": "SemtechLib.Devices.Common.Hid\\SemtechLib.Devices.Common.Hid\\HidDevice.cs",
+              "ViewState": "AQIAAC4BAAAAAAAAAAArwD0BAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:51:48.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SX1276LR.cs",
+              "DocumentMoniker": "E:\\git\\sx1276SKA\\SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR\\SX1276LR.cs",
+              "RelativeDocumentMoniker": "SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR\\SX1276LR.cs",
+              "ToolTip": "E:\\git\\sx1276SKA\\SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR\\SX1276LR.cs",
+              "RelativeToolTip": "SemtechLib.Devices.SX1276LR\\SemtechLib.Devices.SX1276LR\\SX1276LR.cs",
+              "ViewState": "AQIAAIsNAAAAAAAAAADgv5oNAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:29:56.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

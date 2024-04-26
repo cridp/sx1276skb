@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C75696A3-2FE6-4B3C-99C4-FAF3E8DE3C98}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>default</LangVersion>
+    <AssemblyName>sx1276ska</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SX1276SKA.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <ProjectReference Include="..\SemtechLib\SemtechLib.csproj">
+      <Project>{B1CA1D01-CA93-4658-9E2A-22CF797849E5}</Project>
+      <Name>SemtechLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.Common\SemtechLib.Devices.Common.csproj">
+      <Project>{0EAE22E4-D344-480C-9B2C-1C0847808D7A}</Project>
+      <Name>SemtechLib.Devices.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.SX1276.Common\SemtechLib.Devices.SX1276.Common.csproj">
+      <Project>{2B102F89-8B1B-4FD3-B4C5-00B7CC8859E7}</Project>
+      <Name>SemtechLib.Devices.SX1276.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.SX1276.UI\SemtechLib.Devices.SX1276.UI.csproj">
+      <Project>{A612F6C2-1FCC-4B40-8316-D8D85867B50A}</Project>
+      <Name>SemtechLib.Devices.SX1276.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.SX1276\SemtechLib.Devices.SX1276.csproj">
+      <Project>{21A0C660-1482-4F93-BBBE-2722F3AAB1E5}</Project>
+      <Name>SemtechLib.Devices.SX1276</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.SX1276LR\SemtechLib.Devices.SX1276LR.csproj">
+      <Project>{04BEC4FF-ECC7-48AE-AE58-DDDC80F247EB}</Project>
+      <Name>SemtechLib.Devices.SX1276LR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.SX1276LR.UI\SemtechLib.Devices.SX1276LR.UI.csproj">
+      <Project>{0471A2A3-BE45-47FD-9686-F5A754099C34}</Project>
+      <Name>SemtechLib.Devices.SX1276LR.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationIcon Include="app.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SX1276SKA.Properties\Resources.cs" />
+    <Compile Include="SX1276SKA.Properties\Settings.cs" />
+    <Compile Include="SX1276SKA\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SX1276SKA\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SX1276SKA\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SX1276SKA\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SX1276SKA.HelpForm.resx" LogicalName="SX1276SKA.HelpForm.resources" />
+    <EmbeddedResource Include="SX1276SKA.MainForm.resx" LogicalName="SX1276SKA.MainForm.resources" />
+    <EmbeddedResource Include="SX1276SKA.Properties.Resources.resx" LogicalName="SX1276SKA.Properties.Resources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

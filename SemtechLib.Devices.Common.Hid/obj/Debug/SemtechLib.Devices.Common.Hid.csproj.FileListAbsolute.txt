@@ -1,0 +1,11 @@
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.Devices.Common.Hid.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.Devices.Common.Hid.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.Devices.Common.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.Devices.Common.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\bin\Debug\SemtechLib.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\obj\Debug\SemtechLib.Devices.Common.Hid.csproj.AssemblyReference.cache
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\obj\Debug\SemtechLib.Devices.Common.Hid.csproj.CoreCompileInputs.cache
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\obj\Debug\SemtechLib.Devices.Common.Hid.dll
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\obj\Debug\SemtechLib.Devices.Common.Hid.pdb
+E:\git\sx1276SKA\SemtechLib.Devices.Common.Hid\obj\Debug\SemtechL.813FA743.Up2Date

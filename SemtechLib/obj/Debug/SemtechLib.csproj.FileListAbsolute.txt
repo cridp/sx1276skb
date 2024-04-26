@@ -1,0 +1,9 @@
+E:\git\sx1276SKA\SemtechLib\bin\Debug\SemtechLib.dll
+E:\git\sx1276SKA\SemtechLib\bin\Debug\SemtechLib.pdb
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.csproj.AssemblyReference.cache
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.Controls.Graph.GraphCtrl.resources
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.Properties.Resources.resources
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.csproj.GenerateResource.cache
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.csproj.CoreCompileInputs.cache
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.dll
+E:\git\sx1276SKA\SemtechLib\obj\Debug\SemtechLib.pdb

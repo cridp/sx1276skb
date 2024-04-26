@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{04BEC4FF-ECC7-48AE-AE58-DDDC80F247EB}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>default</LangVersion>
+    <AssemblyName>SemtechLib.Devices.SX1276LR</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <ProjectReference Include="..\SemtechLib.Devices.Common\SemtechLib.Devices.Common.csproj">
+      <Project>{0EAE22E4-D344-480C-9B2C-1C0847808D7A}</Project>
+      <Name>SemtechLib.Devices.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib.Devices.Common.Hid\SemtechLib.Devices.Common.Hid.csproj">
+      <Project>{1A33AC13-4E72-43C3-9056-CB44B55A969C}</Project>
+      <Name>SemtechLib.Devices.Common.Hid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemtechLib\SemtechLib.csproj">
+      <Project>{B1CA1D01-CA93-4658-9E2A-22CF797849E5}</Project>
+      <Name>SemtechLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\BandEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\ClockOutEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\DioMappingEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\LimitCheckStatusEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\LnaGainEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\OperatingModeEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\PaRampEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\PaSelectEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Enumerations\RfPaSwitchSelEnum.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\AgcStepEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\AgcStepEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\BandEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\BandEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\ClockOutEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\ClockOutEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\DioMappingEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\DioMappingEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\LimitCheckStatusEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\LimitCheckStatusEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\LnaGainEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\LnaGainEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\PaModeEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\PaModeEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\PaRampEventArg.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Events\PaRampEventHandler.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.General\DataLog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.General\ILog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.General\PacketLog.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR.Properties\Resources.cs" />
+    <Compile Include="SemtechLib.Devices.SX1276LR\SX1276LR.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SemtechLib.Devices.SX1276LR.Properties.Resources.resx" LogicalName="SemtechLib.Devices.SX1276LR.Properties.Resources.resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
